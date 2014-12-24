@@ -1,0 +1,99 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/** Clear shit **/
+#back-button,
+#urlbar-reload-button,
+#PanelUI-menu-button,
+#bookmarks-menu-button,
+#identity-box,
+#urlbar-stop-button,
+#forward-button,
+#addonbar-closebutton,
+#downloads-button,
+#go-button,
+#home-button,
+#restore-button,
+#notification-popup-box,
+#page-proxy-favicon,
+#searchbar,
+#addon-bar,
+#PersonalToolbar,
+#urlbar-go-button,
+#PanelUI-button,
+#identity-box,
+.tabbrowser-tab .tab-throbber,
+.tabbrowser-tab .tab-close-button,
+.tabbrowser-tab .tab-icon-image,
+#identity-icon-labels,
+#minimize-button,
+#PopupAutoCompleteRichResult,
+#urlbar-container dropmarker,
+#tabbrowser-tabs .scrollbutton-down,
+#tabbrowser-tabs .scrollbutton-up,
+statusbarpanel,
+.tabs-newtab-button,
+.toolbarbutton-menubutton-dropmarker{
+  display: none !important;
+}
+
+#tabbrowser-tabs {
+  background-color: #323232 !important;
+}
+
+.tab-background-start,
+.tab-background-end {
+    visibility: hidden !important;
+}
+
+.tab-background,
+.tab-background-middle,
+.tabbrowser-tab:after,
+.tabbrowser-tab:before,
+.tabbrowser-tab:after {
+    box-shadow:none !important;
+    background:none !important
+}
+
+#TabsToolbar {
+    margin-left: -1.2em !important;
+    margin-right: -1.2em !important;
+}
+
+.tabbrowser-tab {
+    background-color: #323232 !important;
+    color: #b9b9b9 !important;
+}
+
+.tabbrowser-tab:hover {
+  background-color: #636363 !important;
+}
+
+.tabbrowser-tab[selected] {
+  background-color: #b9b9b9 !important;
+  color: #323232 !important;
+}
+
+
+#nav-bar {
+  background: #323232 !important;
+  box-shadow: none !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 1.5em !important;
+  position: fixed !important;
+  padding: 0 0 0 0 !important;
+}
+
+#urlbar-wrapper {
+  padding-left: 1em !important;
+}
+
+#urlbar {
+  color: #b9b9b9 !important;
+  background: none !important;
+  border: none !important;
+}
+
+#content-deck {
+    margin-bottom: 1.5em !important;
+}
