@@ -56,7 +56,7 @@ statusbarpanel,
 
 #TabsToolbar {
     margin-left: -1.2em !important;
-    margin-right: -1.2em !important;
+    margin-right: -1.2em !important
 }
 
 .tabbrowser-tab {
@@ -92,8 +92,30 @@ statusbarpanel,
   color: #b9b9b9 !important;
   background: none !important;
   border: none !important;
+  width: 50em !important;
 }
 
 #content-deck {
     margin-bottom: 1.5em !important;
+}
+
+/* Remove scrollbar */
+@-moz-document url-prefix(http://), url-prefix(https://) {
+
+scrollbar[orient="vertical"],
+scrollbar thumb[orient="vertical"],
+scrollbar[orient="horizontal"],
+scrollbar thumb[orient="horizontal"],
+scrollbar > slider,
+scrollbar[orient="vertical"],
+scrollbar[orient='vertical'] > slider,
+scrollbar[orient='vertical'] > slider > thumb,
+scrollbar[orient="horizontal"],
+scrollbar[orient='horizontal'] > slider,
+scrollbar[orient='horizontal'] > slider > thumb,
+scrollbar > scrollbarbutton,
+scrollbar[orient='horizontal'] > scrollbarbutton {
+-moz-appearance: none !important;
+display: none !important;
+}
 }
