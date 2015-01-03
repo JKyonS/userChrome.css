@@ -100,7 +100,7 @@ statusbarpanel,
 }
 
 /* Remove scrollbar */
-@-moz-document url-prefix(http://), url-prefix(https://) {
+@-moz-document url-prefix(http://), url-prefix(https://), url-prefix(file://) {
 
 scrollbar[orient="vertical"],
 scrollbar thumb[orient="vertical"],
