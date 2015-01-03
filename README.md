@@ -10,6 +10,9 @@ A simple userChrome.css for Firefox.
 
 - it has some issues with Windows
 - no tests on Nightly, Aurora or Firefox Beta
+- the scrollbar remover is a little bit glitchy, if you are having problems,
+  just use [Stylish](https://addons.mozilla.org/firefox/addon/stylish/) and
+  make a new script with the content of `scroll`
 
 ----
 
