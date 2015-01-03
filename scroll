@@ -1,0 +1,19 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@-moz-document url-prefix(http://), url-prefix(https://), url-prefix(file://) {
+scrollbar[orient="vertical"],
+scrollbar thumb[orient="vertical"],
+scrollbar[orient="horizontal"],
+scrollbar thumb[orient="horizontal"],
+scrollbar > slider,
+scrollbar[orient="vertical"],
+scrollbar[orient='vertical'] > slider,
+scrollbar[orient='vertical'] > slider > thumb,
+scrollbar[orient="horizontal"],
+scrollbar[orient='horizontal'] > slider,
+scrollbar[orient='horizontal'] > slider > thumb,
+scrollbar > scrollbarbutton,
+scrollbar[orient='horizontal'] > scrollbarbutton {
+-moz-appearance: none !important;
+display: none !important;
+}
+}
