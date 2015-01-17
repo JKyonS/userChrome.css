@@ -99,7 +99,7 @@ statusbarpanel,
     margin-bottom: 1.5em !important;
 }
 
-/* Remove scrollbar */
+/* Remove scrollbar 
 @-moz-document url-prefix(http://), url-prefix(https://), url-prefix(file://) {
 
 scrollbar[orient="vertical"],
@@ -118,4 +118,4 @@ scrollbar[orient='horizontal'] > scrollbarbutton {
 -moz-appearance: none !important;
 display: none !important;
 }
-}
+} */
