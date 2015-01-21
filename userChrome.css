@@ -37,7 +37,7 @@ statusbarpanel,
 }
 
 #tabbrowser-tabs {
-  background-color: #323232 !important;
+  background-color: #212121 !important;
 }
 
 .tab-background-start,
@@ -60,8 +60,8 @@ statusbarpanel,
 }
 
 .tabbrowser-tab {
-    background-color: #323232 !important;
-    color: #b9b9b9 !important;
+    background: #212121 !important;
+    color: #EBEBEB !important;
 }
 
 .tabbrowser-tab:hover {
@@ -69,13 +69,13 @@ statusbarpanel,
 }
 
 .tabbrowser-tab[selected] {
-  background-color: #b9b9b9 !important;
+  background: #F69C9B !important;
   color: #323232 !important;
 }
 
 
 #nav-bar {
-  background: #323232 !important;
+  background: #212121 !important;
   box-shadow: none !important;
   bottom: 0 !important;
   width: 100% !important;
@@ -89,17 +89,17 @@ statusbarpanel,
 }
 
 #urlbar {
-  color: #b9b9b9 !important;
+  color: #EBEBEB !important;
   background: none !important;
   border: none !important;
-  width: 50em !important;
+  width: 60em !important;
 }
 
 #content-deck {
     margin-bottom: 1.5em !important;
 }
 
-/* Remove scrollbar 
+/* Remove scrollbar
 @-moz-document url-prefix(http://), url-prefix(https://), url-prefix(file://) {
 
 scrollbar[orient="vertical"],
